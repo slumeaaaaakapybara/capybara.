@@ -1,0 +1,67 @@
+header{
+    background-color:rgb(29, 78, 143); /*цвет фона*/
+    height: 500px; /*высота*/
+    color:rgb(238, 234, 217); /*цвет текста*/
+    font-size: 30px; /*размер текста*/
+    background-image: url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgwdH4YAAQ3fM_MpcIAjRUb7apL9jypxxdDzz37_NSzx0vzRA4LO0R1mm7mquFgrL5XesKm5aH47hz-cC0WR6ytiOcn9HLIML1ydHF-7_VR0jiAfbRGmj1TMlLm394Jw__5QdMkkO3k4SKY/s1600/IMG_0100.jpg) ;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-bottom: 50px;
+}
+
+
+h1{
+    text-align: center;  
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif, 2px 5px 5px;
+text-shadow: rgb(231, 217, 200) 2px 5px 5px;
+}
+    h2{
+        text-align: center;  
+        font-size: 30px;
+        color: rgb(252, 253, 200);
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-style: italic;
+        text-shadow: rgb(10, 155, 165) 2px 5px 5px;}
+main{
+    background-color:rgb(247, 246, 206); /*цвет фона*/
+    height: 500px; /*высота*/
+    color:rgb(255, 255, 254); /*цвет текста*/
+    font-size: 30px; /*размер текста*/
+    height: 400px; /*высота блока*/
+    display: flex;
+    justify-content: center;
+    margin-right: 70px;
+
+}
+footer{
+    background-color:rgb(247, 246, 206); /*цвет фона*/
+    height: 400px; /*высота*/
+    color:rgb(255, 255, 254); /*цвет текста*/
+    font-size: 30px; /*размер текста*/
+}
+
+.container{
+    width: 80%;
+    height: 100%;
+    background-color: rgb(240, 233, 172);}
+.left{
+   width: 80%; 
+   height: 900%;
+   background-color: rgb(245, 240, 199);
+   float: left;
+   background-color:rgb(220, 253, 253); /*цвет фона*/
+    height: 200px; /*высота блока*/
+    color:rgb(41, 165, 236); /*цвет текста*/
+    text-shadow:darkorange 2px 5px 5px;
+    font-size: 20px; /*размер текста*/
+}
+.right{
+    width: 37%; 
+   height: 60%;
+   background-color: rgb(190, 212, 231);
+   float: right;
+   margin-left: 70%;
+}
